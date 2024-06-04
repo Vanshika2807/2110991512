@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list, .product-details {
+  width: 45%;
+}
+
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.product-list li:hover {
+  background-color: #f0f0f0;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
